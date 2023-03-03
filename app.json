@@ -65,12 +65,7 @@
       "description": "set 'True' to install 18+ plugins.",
       "value": "False",
       "required": false
-    }
-  },
-  "addons": [{
-    "plan": "",
-    "options": {
-      "version": ""
+    },
     }
   }],
   "buildpacks": [{
