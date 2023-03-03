@@ -7,13 +7,13 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/TgCatUB/catuserbot",
+  "repository": "https://github.com/Rahimx331/Deploy",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
       "description": "give your name",
-      "value": ""
+      "value": "Mohammad Abdur Rahim"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -53,7 +53,7 @@
     },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+      "value": "Asia/Dhaka",
       "required": false
     },
     "EXTERNAL_REPO": {
@@ -66,6 +66,13 @@
       "value": "False",
       "required": false
     }
+  },
+  "addons": [{
+    "plan": "",
+    "options": {
+      "version": "12"
+    }
+  }],
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   },{
