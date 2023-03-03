@@ -1,5 +1,5 @@
 {
-  "name": "CatUserbot",
+  "name": "MyCatUserbot",
   "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep ",
   "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
   "keywords": [
@@ -13,7 +13,7 @@
   "env": {
     "ALIVE_NAME": {
       "description": "give your name",
-      "value": ""
+      "value": "Mohammad Abdur Rahim"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
