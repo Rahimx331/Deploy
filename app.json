@@ -85,5 +85,5 @@
   },{
     "url": "heroku/python"
   }],
-  "stack": "heroku-eco"
+  "stack": "heroku-22"
 }
