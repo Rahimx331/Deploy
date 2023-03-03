@@ -13,7 +13,7 @@
   "env": {
     "ALIVE_NAME": {
       "description": "give your name",
-      "value": "Mohammad Abdur Rahim"
+      "value": ""
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -53,7 +53,7 @@
     },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Dhaka",
+      "value": "Asia/Kolkata",
       "required": false
     },
     "EXTERNAL_REPO": {
@@ -65,7 +65,14 @@
       "description": "set 'True' to install 18+ plugins.",
       "value": "False",
       "required": false
-    },
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   },{
@@ -83,5 +90,5 @@
   },{
     "url": "heroku/python"
   }],
-  "stack": "heroku-eco"
+  "stack": "heroku-22"
 }
