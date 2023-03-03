@@ -65,7 +65,7 @@
       "description": "set 'True' to install 18+ plugins.",
       "value": "False",
       "required": false
-  }],
+    }
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   },{
